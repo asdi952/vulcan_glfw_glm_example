@@ -1,1 +1,0 @@
--IF:/myProjects/cpp_vulkan/src/vulkan.h -IF:/myProjects/cpp_vulkan/deps/glfw/include -IF:/vulkansdk/Include
