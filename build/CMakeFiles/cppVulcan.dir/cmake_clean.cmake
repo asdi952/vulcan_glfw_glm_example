@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cppVulcan.dir/src/main.cpp.obj"
   "CMakeFiles/cppVulcan.dir/src/main.cpp.obj.d"
+  "CMakeFiles/cppVulcan.dir/src/vulkan.cpp.obj"
+  "CMakeFiles/cppVulcan.dir/src/vulkan.cpp.obj.d"
   "cppVulcan.exe"
   "cppVulcan.exe.manifest"
   "cppVulcan.pdb"

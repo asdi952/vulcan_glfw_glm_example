@@ -1,1 +1,1 @@
--IC:/PROGRA~2/GLFW/include -IC:/PROGRA~2/GLFW/lib
+-IF:/myProjects/cpp_vulkan/src/vulkan.h -IF:/myProjects/cpp_vulkan/deps/glfw/include -IF:/vulkansdk/Include

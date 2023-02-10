@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppVulcan.dir\build.make CMakeFiles/cppVulcan.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/vulkan.obj: src/vulkan.cpp.obj
+.PHONY : src/vulkan.obj
+
+# target to build an object file
+src/vulkan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppVulcan.dir\build.make CMakeFiles/cppVulcan.dir/src/vulkan.cpp.obj
+.PHONY : src/vulkan.cpp.obj
+
+src/vulkan.i: src/vulkan.cpp.i
+.PHONY : src/vulkan.i
+
+# target to preprocess a source file
+src/vulkan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppVulcan.dir\build.make CMakeFiles/cppVulcan.dir/src/vulkan.cpp.i
+.PHONY : src/vulkan.cpp.i
+
+src/vulkan.s: src/vulkan.cpp.s
+.PHONY : src/vulkan.s
+
+# target to generate assembly for a file
+src/vulkan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppVulcan.dir\build.make CMakeFiles/cppVulcan.dir/src/vulkan.cpp.s
+.PHONY : src/vulkan.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -165,6 +189,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/vulkan.obj
+	@echo ... src/vulkan.i
+	@echo ... src/vulkan.s
 .PHONY : help
 
 

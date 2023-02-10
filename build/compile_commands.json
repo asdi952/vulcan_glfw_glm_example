@@ -3,5 +3,10 @@
   "directory": "F:/myProjects/cpp_vulkan/build",
   "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/cppVulcan.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\cppVulcan.dir\\src\\main.cpp.obj -c F:\\myProjects\\cpp_vulkan\\src\\main.cpp",
   "file": "F:/myProjects/cpp_vulkan/src/main.cpp"
+},
+{
+  "directory": "F:/myProjects/cpp_vulkan/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/cppVulcan.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\cppVulcan.dir\\src\\vulkan.cpp.obj -c F:\\myProjects\\cpp_vulkan\\src\\vulkan.cpp",
+  "file": "F:/myProjects/cpp_vulkan/src/vulkan.cpp"
 }
 ]

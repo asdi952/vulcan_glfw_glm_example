@@ -3,8 +3,9 @@
 cmake_policy(SET CMP0009 NEW)
 
 # LOCAL_HEADERS at CMakeLists.txt:12 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "F:/myProjects/cpp_vulkan/src/")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "F:/myProjects/cpp_vulkan/src/*.h")
 set(OLD_GLOB
+  "F:/myProjects/cpp_vulkan/src/vulkan.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -24,6 +25,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "F:/myProjects/cpp_vulkan/src/*.cpp")
 set(OLD_GLOB
   "F:/myProjects/cpp_vulkan/src/main.cpp"
+  "F:/myProjects/cpp_vulkan/src/vulkan.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
